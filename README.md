@@ -1,4 +1,4 @@
-# array[^n]: Getting nth-last item from an array
+# Getting nth-last item from an array
 
 ## Rationale
 
