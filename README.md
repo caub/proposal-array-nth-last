@@ -20,11 +20,11 @@ The new proposed syntax `someArray[^n]` desugars to `someArray[Symbol.index](n, 
 
 // TODO
 
-#### Related proposal
+## Related proposal
 
-https://github.com/keithamus/proposal-array-last
 
-The benefit is to:
+
+Compared to https://github.com/keithamus/proposal-array-last, the benefit in our proposal is to:
 
 - avoid any web-compatibility issue
 - avoid "magic" getters
