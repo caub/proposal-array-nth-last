@@ -1,4 +1,4 @@
-# Getting nth-last item from Array
+# array[^n]: Getting nth-last item from an array
 
 ## Rationale
 
@@ -16,13 +16,13 @@ The existing `someArray[n]` desugars to`someArray[Symbol.index](n)`
 
 The new proposed syntax `someArray[^n]` desugars to `someArray[Symbol.index](n, true)`
 
+This protocol could be added to `String` as well
+
 ## Specification
 
 // TODO
 
 ## Related proposal
-
-
 
 Compared to https://github.com/keithamus/proposal-array-last, the benefit in our proposal is to:
 
